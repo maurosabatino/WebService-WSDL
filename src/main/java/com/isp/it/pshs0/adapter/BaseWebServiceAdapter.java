@@ -14,13 +14,13 @@ import com.isp.it.pshs0.provider.JaxWebServiceProvider;
  */
 public abstract class BaseWebServiceAdapter {
 
-    @Value("${isp.otcv0.ws.weather.url}")
+    @Value("${isp.otcv0.ws.amazon.url}")
     private String endpoint;
 
-    @Value("com.isp.it.pshs0.GlobalWeatherSoap")
+    @Value("com.isp.it.pshs0.AWSECommerceServicePortType")
     private String serviceInterface;
 
-    @Value("com.isp.it.pshs0.GlobalWeather")
+    @Value("com.isp.it.pshs0.AWSECommerceService")
     private String serviceImplementation;
 
     @Value("${ws.request.TimeOut}")
