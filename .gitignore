@@ -180,3 +180,4 @@ fabric.properties
 
 # Crashlytics plugin (for Android Studio and IntelliJ)
 /ws.iml
+.idea/*
